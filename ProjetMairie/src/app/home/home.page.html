@@ -1,0 +1,54 @@
+<ion-header [translucent]="true" >
+  <ion-toolbar>
+        <ion-menu-button color="primary" name="slide" fill="clear" size="large" slot="start">
+          <ion-icon  name="cog"></ion-icon>
+        </ion-menu-button>
+      <ion-title style="text-align: center;" color="primary">Les enquêtes de Colima</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    <ion-card-header>
+      <div class="imgColima"  style="display: flex; justify-content: center;">
+        <img src="../../assets/thumbnail_COLIMA.png" alt="Colima">
+      </div>
+      <ion-card-subtitle color="primary" style="align-items: center;">Colima</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <audio src="../../assets/audio/synopsis.mp3" id="audio"type="audio/mp3" controls ></audio> 
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-subtitle color="primary">Synopsis</ion-card-subtitle>
+        Colima est une petite colombe qui vit dans l’actuel cinéma de Colomiers depuis qu’elle est née et malgré son vieil
+        âge elle n’en est jamais sortie.
+        <br>
+        <br> 
+        Pour quelle raison ? Eh bien, il lui manque une aile et elle n’a donc jamais pu voler ni découvrir le monde. Mais
+        ce
+        n’est pas un problème car ce qu’elle aime dans la vie c’est regarder des films sur grand écran ! Elle a appris que le cinéma fermerait ses portes très prochainement,pour un nouveau cinéma plus spacieux et aux
+        matériaux respectueux de l’environnement.
+        <br>
+        <br>
+        Elle s’est dit qu’il était temps pour elle de découvrir ce qu’il y a à l’extérieur et de sortir enfin de ce cinéma
+        qui l’a vu naître.
+        Maligne et astucieuse, Colima s’est alors fabriqué une aile avec une pellicule de film pour pouvoir voler aussi
+        librement qu’elle le souhaitait.
+        Mais… à la simple idée de s’envoler et découvrir la ville, elle est très effrayée !
+        <br>
+        <br>
+        Alors c’est à toi de jouer ! Accompagne Colima, montre-lui la ville et les moyens qu’elle peut trouver pour s’y
+        déplacer.
+        En échange, elle va te faire découvrir le cinéma à sa manière.        
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+      <ion-button style="height: 50px;" expand="block" (click)='boutonAjoutPseudo()' >C'EST PARTIE !</ion-button>
+  </ion-toolbar>
+</ion-footer>

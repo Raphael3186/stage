@@ -1,0 +1,45 @@
+<!--Derniere Borne-->
+<ion-header >
+  <ion-toolbar>
+    <ion-menu-button color="primary" name="slide"fill="clear" size="large" slot="end" >
+      <ion-icon name="cog"></ion-icon>
+    </ion-menu-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-img  src="../../assets/thumbnail_COLIMA.png" alt="Colima"></ion-img>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-card-subtitle>Tu es arrivé</ion-card-subtitle>
+      <ion-card-title color="primary">Bravo</ion-card-title>
+      Tu as réussi à répondre aux énigmes !! Grâce à toi Colima à visiter toute la ville, elle va s'installer dans le nouveau cinéma et te remercie de lui avoir permis de vivre une telle aventure.  
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-card-title color="primary">Tirage au sort</ion-card-title>
+      A l'occasion de l'ouverture du nouveau cinéma, participer au tirage au sort qui aura lieu // pour gagner de nombreux cadeaux  
+    </ion-card-content>
+      <ion-grid>  
+        <ion-row>
+          <ion-col size="5" size-lg offset="1">
+            <ion-button color="success" (click)="retourAuMenu()" expand="block">Retour au menu</ion-button>
+          </ion-col>
+          <ion-col size="5" size-lg>
+            <ion-button href="https://www.ville-colomiers.fr/index.php?id=1570&ADMCMD_cooluri=1" expand="block">Tirage au sort</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  </ion-card>
+
+  
+
+
+
+
+
+</ion-content>

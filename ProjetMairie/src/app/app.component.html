@@ -1,0 +1,24 @@
+<!--Menu de navigation-->
+<ion-app>
+  <ion-menu side="start" menuId="slide" contentId="main">
+    <ion-header>
+      <ion-toolbar color="primary">
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-item><ion-button color="primary" (click)="ouvrirPageRegle()" expand="block" fill="clear"><ion-icon name="construct"></ion-icon>- Règle du Jeu</ion-button></ion-item>
+        <ion-item><ion-button color="primary" (click)="ouvrirPageClassement()" expand="block" fill="clear"><ion-icon name="people"></ion-icon>- Classement</ion-button></ion-item>
+        <ion-item><ion-button color="primary" (click)="presentPopover(click)"class="popover-content" expand="block" fill="clear"><ion-icon name="information-circle-outline"></ion-icon>- Nous contacter</ion-button></ion-item>
+    </ion-content>
+    <ion-footer>
+      <ion-toolbar>
+        <ion-item id="logos">
+          <ion-label> <ion-img src="../../../assets/img/Colomiers.jpg" style="max-width: 50%; max-height: 50%; align-items: center;"></ion-img> </ion-label>
+          <ion-label> <ion-img src="../../../assets/img/ort.jpg" style="max-width: 50%; max-height: 50%"></ion-img> </ion-label>
+        </ion-item>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

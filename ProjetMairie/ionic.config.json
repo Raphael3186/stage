@@ -1,0 +1,7 @@
+{
+  "name": "Les enquêtes de Colima",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
